@@ -1,0 +1,26 @@
+{
+  "appid": "wxe6851863490a7827",
+  "projectname": "genki-ramen-shop",
+  "compileType": "game",
+  "miniprogramRoot": "./",
+  "setting": {
+    "es6": true,
+    "minified": true
+  },
+  "packOptions": {
+    "ignore": [
+      {"type": "folder", "value": "node_modules"},
+      {"type": "folder", "value": "src"},
+      {"type": "folder", "value": "scripts"},
+      {"type": "folder", "value": "tests"},
+      {"type": "folder", "value": "reference_analysis"},
+      {"type": "folder", "value": "art_sources"},
+      {"type": "folder", "value": "comparison"},
+      {"type": "folder", "value": "previews"},
+      {"type": "folder", "value": "开发文档"},
+      {"type": "folder", "value": "release"},
+      {"type": "folder", "value": "dist-wechat"},
+      {"type": "folder", "value": ".preview"}
+    ]
+  }
+}

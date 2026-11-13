@@ -1,0 +1,33 @@
+{
+  "name": "genki-ramen-shop",
+  "version": "1.4.4",
+  "private": true,
+  "type": "module",
+  "description": "小美煮拉面微信小游戏",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/test.mjs",
+    "check-assets": "node scripts/check-assets.mjs",
+    "build": "node scripts/build.mjs",
+    "typecheck:taptap": "tsc --noEmit -p tsconfig.taptap-h5.json",
+    "build:taptap": "npm run typecheck:taptap && node scripts/build-taptap-h5.mjs",
+    "verify:taptap": "node scripts/verify-taptap-h5.mjs",
+    "preview": "node scripts/preview-server.mjs",
+    "verify-gameplay": "node scripts/verify-gameplay.mjs",
+    "preflight": "node scripts/preflight.mjs",
+    "package": "node scripts/package-release.mjs",
+    "verify-experience": "node scripts/verify-experience.mjs",
+    "create-audio": "node scripts/create-audio.mjs",
+    "verify-drag": "node scripts/verify-drag.mjs",
+    "typecheck:taptap-minigame": "tsc --noEmit -p tsconfig.taptap-minigame.json",
+    "build:taptap-minigame": "npm run typecheck:taptap-minigame && node scripts/build-taptap-minigame.mjs",
+    "verify:taptap-minigame": "node scripts/verify-taptap-minigame.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "esbuild": "0.28.2",
+    "minigame-api-typings": "3.8.21",
+    "sharp": "0.34.5",
+    "typescript": "7.0.2"
+  }
+}

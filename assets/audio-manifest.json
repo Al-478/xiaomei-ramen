@@ -1,0 +1,102 @@
+{
+  "bpm": 112,
+  "style": "原创轻快铃音、低音与轻打击乐",
+  "assets": [
+    {
+      "id": "bgm_game",
+      "path": "assets/audio/bgm_game.mp3",
+      "duration": 17.142857,
+      "bytes": 206620,
+      "source": "art_sources/audio/bgm_game.wav",
+      "original": true
+    },
+    {
+      "id": "click",
+      "path": "assets/audio/click.mp3",
+      "duration": 0.140023,
+      "bytes": 1714,
+      "source": "art_sources/audio/click.wav",
+      "original": true
+    },
+    {
+      "id": "ingredient_drop",
+      "path": "assets/audio/ingredient_drop.mp3",
+      "duration": 0.280023,
+      "bytes": 2759,
+      "source": "art_sources/audio/ingredient_drop.wav",
+      "original": true
+    },
+    {
+      "id": "cooking_done",
+      "path": "assets/audio/cooking_done.mp3",
+      "duration": 0.65,
+      "bytes": 5685,
+      "source": "art_sources/audio/cooking_done.wav",
+      "original": true
+    },
+    {
+      "id": "warning",
+      "path": "assets/audio/warning.mp3",
+      "duration": 0.5,
+      "bytes": 4640,
+      "source": "art_sources/audio/warning.wav",
+      "original": true
+    },
+    {
+      "id": "coin",
+      "path": "assets/audio/coin.mp3",
+      "duration": 0.340658,
+      "bytes": 3386,
+      "source": "art_sources/audio/coin.wav",
+      "original": true
+    },
+    {
+      "id": "win",
+      "path": "assets/audio/win.mp3",
+      "duration": 1.5,
+      "bytes": 12581,
+      "source": "art_sources/audio/win.wav",
+      "original": true
+    },
+    {
+      "id": "lose",
+      "path": "assets/audio/lose.mp3",
+      "duration": 1.5,
+      "bytes": 12581,
+      "source": "art_sources/audio/lose.wav",
+      "original": true
+    },
+    {
+      "id": "burnt",
+      "path": "assets/audio/burnt.mp3",
+      "duration": 0.8,
+      "bytes": 6939,
+      "source": "art_sources/audio/burnt.wav",
+      "original": true
+    },
+    {
+      "id": "egg_crack",
+      "path": "assets/audio/egg_crack.mp3",
+      "duration": 0.22,
+      "bytes": 2341,
+      "source": "art_sources/audio/egg_crack.wav",
+      "original": true
+    },
+    {
+      "id": "pour_water",
+      "path": "assets/audio/pour_water.mp3",
+      "duration": 0.85,
+      "bytes": 7357,
+      "source": "art_sources/audio/pour_water.wav",
+      "original": true
+    },
+    {
+      "id": "boiling",
+      "path": "assets/audio/boiling.mp3",
+      "duration": 1.6,
+      "bytes": 13417,
+      "source": "art_sources/audio/boiling.wav",
+      "original": true
+    }
+  ]
+}

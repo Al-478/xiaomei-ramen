@@ -1,0 +1,16 @@
+{
+  "tool": "\u5185\u7f6e image_gen.imagegen",
+  "date": "2026-10-07",
+  "assets": [
+    {
+      "source": "art_sources/noodle-strands-v2.png",
+      "runtime": "assets/images/cookware/noodle-strands.png",
+      "prompt": "Create a production-ready transparent PNG game sprite: ONLY a dense tangle of fine cooked ramen noodles, no bowl, no plate, no cookware, no border, no text, no topping, no egg, no scallion. Fine slender pale yellow curly noodles with small gaps where transparent background shows through. Three-quarter overhead perspective, extremely wide elliptical footprint roughly 2.4:1 width to height, surface appropriate to fit inside a cartoon soup pot opening. Hundreds of thin looping curly strands, delicate narrow linework, not thick tubular spaghetti, not large isolated waves. 2000s hand-drawn Flash cooking game aesthetic, light flat cel shading, warm pale cream yellow with restrained ochre outlines, minimal glossy highlights, no 3D realism or photographic texture. Clean silhouette, generous transparent padding. Single isolated noodle surface centered."
+    },
+    {
+      "source": "art_sources/oven-mitt-v1.png",
+      "runtime": "assets/images/effects/oven-mitt.png",
+      "prompt": "Create one original game sprite on a truly transparent background: a single pink oven mitt gripping pose, thumb points inward to the right, cuff at lower left and rounded mitten fingertips at upper right, seen from above at a slight oblique angle. Light pink cotton oven glove with tiny scattered white flowers and two sewn seams, rose-pink outline and simple 2-level cel shading. Cute 2000s Flash girl cooking game look, coherent with a pink kitchen and yellow gold pots. No hands, no arm, no object being held, no lettering, no logo, no background, no shadow rectangle. NOT copy a branded character. Clean transparent edges and generous margin. One mitten only, large centered sprite."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+node_modules/
+**/node_modules/
+*.log
+.DS_Store
+Thumbs.db
+project.private.config.json
+.env
+.env.*
+dist/
+dist-wechat/
+dist-taptap-h5/
+.test-build/
+.preview/
+reference_analysis/frames/
+reference_analysis/crops/frames/
+reference_analysis/start_detail/frames/
+reference_analysis/end_detail/frames/
+dist-taptap-minigame/
+
+# 部署缓存、密钥和本机配置
+.vercel/
+.cache/
+coverage/
+*.pem
+*.key
+*.p12
+*.pfx
+*.tsbuildinfo
+!.env.example
+
+# 本地验收截图、历史发布包及后台操作记录，不属于项目源码
+previews/
+release/
+comparison/
+reference_analysis/
+开发文档/

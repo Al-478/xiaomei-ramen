@@ -1,0 +1,15 @@
+{
+  "name": "genki-ramen-art-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "小美煮拉面的素材拆分、组合预览及检查工具",
+  "scripts": {
+    "export": "node export.mjs",
+    "preview": "node preview.mjs",
+    "check": "node check.mjs"
+  },
+  "dependencies": {
+    "sharp": "0.34.5"
+  }
+}

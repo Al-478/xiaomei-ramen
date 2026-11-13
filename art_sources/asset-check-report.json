@@ -1,0 +1,490 @@
+{
+  "date": "2026-10-07",
+  "status": "PASS",
+  "assetCount": 48,
+  "totalBytes": 3923878,
+  "errors": [],
+  "assets": [
+    {
+      "id": "pot-empty",
+      "path": "assets/images/cookware/pot-empty.png",
+      "bytes": 35936,
+      "width": 384,
+      "height": 274,
+      "transparentPixels": 42137,
+      "borderViolations": 0,
+      "sha256": "d4bd45d160883080a0e1ca360bea750edc8b3720cb603a4354be74ed37db1cc0"
+    },
+    {
+      "id": "pot-water",
+      "path": "assets/images/cookware/pot-water.png",
+      "bytes": 33913,
+      "width": 384,
+      "height": 274,
+      "transparentPixels": 42237,
+      "borderViolations": 0,
+      "sha256": "a70255d54398ff4e8dd7ee701ba95f82b29a1a78943f85b1fdca0850bfecbdb6"
+    },
+    {
+      "id": "pot-noodles",
+      "path": "assets/images/cookware/pot-noodles.png",
+      "bytes": 39278,
+      "width": 384,
+      "height": 274,
+      "transparentPixels": 42652,
+      "borderViolations": 0,
+      "sha256": "6fa2a075fd77dfecfdaa0938f972a5aef93219ec1b128389610012ffdc8be87a"
+    },
+    {
+      "id": "pot-burnt",
+      "path": "assets/images/cookware/pot-burnt.png",
+      "bytes": 45079,
+      "width": 384,
+      "height": 274,
+      "transparentPixels": 42334,
+      "borderViolations": 0,
+      "sha256": "96b05fbce6fa5e83151f25d7ad4a1cc266ba9c15cde24650615eba57c6e708f5"
+    },
+    {
+      "id": "kettle",
+      "path": "assets/images/cookware/kettle.png",
+      "bytes": 34204,
+      "width": 306,
+      "height": 329,
+      "transparentPixels": 42487,
+      "borderViolations": 0,
+      "sha256": "a112115997df1ebcc153565a2e7ae4d8bfd76be9e411a637e99c97b7d7a6cdf9"
+    },
+    {
+      "id": "burner",
+      "path": "assets/images/cookware/burner.png",
+      "bytes": 24500,
+      "width": 294,
+      "height": 224,
+      "transparentPixels": 23084,
+      "borderViolations": 0,
+      "sha256": "0e577b9ca06d0a4acd96fdfe7c389628b444750764c867e51b315d3cabcd103f"
+    },
+    {
+      "id": "steam",
+      "path": "assets/images/effects/steam.png",
+      "bytes": 30896,
+      "width": 268,
+      "height": 324,
+      "transparentPixels": 44475,
+      "borderViolations": 0,
+      "sha256": "62ce355b84ffda8e8a4a0caef16611d0824af2481a9309b2268d62dbf3e0323a"
+    },
+    {
+      "id": "smoke",
+      "path": "assets/images/effects/smoke.png",
+      "bytes": 29292,
+      "width": 272,
+      "height": 307,
+      "transparentPixels": 47099,
+      "borderViolations": 0,
+      "sha256": "63ae463359b76f6cf2ab0dddb1df182ba8d1f32be5d2e733b72d5f50968bc27b"
+    },
+    {
+      "id": "bubbles",
+      "path": "assets/images/effects/bubbles.png",
+      "bytes": 36387,
+      "width": 313,
+      "height": 285,
+      "transparentPixels": 37569,
+      "borderViolations": 0,
+      "sha256": "eb6446bd98a977385951d1069cbc9d0f20a542eff5a04f9bdbb91542c86e0748"
+    },
+    {
+      "id": "coin",
+      "path": "assets/images/ui/coin.png",
+      "bytes": 27554,
+      "width": 287,
+      "height": 275,
+      "transparentPixels": 35015,
+      "borderViolations": 0,
+      "sha256": "6a3e2322c2fa4572cbfc2bff4e4b5216b5a89db07f28efe27d5dd70c4d3bd269"
+    },
+    {
+      "id": "chef-win",
+      "path": "assets/images/character/chef-win.png",
+      "bytes": 76210,
+      "width": 444,
+      "height": 444,
+      "transparentPixels": 81866,
+      "borderViolations": 0,
+      "sha256": "384b1be860e479790376e09167345352a2cb86f161f3dddc7cce50568552fed5"
+    },
+    {
+      "id": "chef-lose",
+      "path": "assets/images/character/chef-lose.png",
+      "bytes": 71488,
+      "width": 444,
+      "height": 444,
+      "transparentPixels": 85808,
+      "borderViolations": 0,
+      "sha256": "9d57e41c7150c5a6301d8c1c6dd76608a8522bc1010b8348e6c2782ed4695fc3"
+    },
+    {
+      "id": "tray",
+      "path": "assets/images/cookware/tray.png",
+      "bytes": 37112,
+      "width": 512,
+      "height": 300,
+      "transparentPixels": 62074,
+      "borderViolations": 0,
+      "sha256": "9364d09dd3749bf002404923e8d2cc601d2bf8afb7d7d73690abb450cb01d098"
+    },
+    {
+      "id": "start-button",
+      "path": "assets/images/ui/start-button.png",
+      "bytes": 49008,
+      "width": 533,
+      "height": 256,
+      "transparentPixels": 32077,
+      "borderViolations": 0,
+      "sha256": "5396c17cef468ae2ec58d88137cffcba5dbf800eea0922e622eb3369c8cd3ef0"
+    },
+    {
+      "id": "speech-panel",
+      "path": "assets/images/ui/speech-panel.png",
+      "bytes": 91425,
+      "width": 642,
+      "height": 367,
+      "transparentPixels": 66531,
+      "borderViolations": 0,
+      "sha256": "63ed9a04435dd5cbc48e695e6dd2f39db5fc71ffd896bcd93711a2aa6964a040"
+    },
+    {
+      "id": "dialog-panel",
+      "path": "assets/images/ui/dialog-panel.png",
+      "bytes": 69017,
+      "width": 613,
+      "height": 343,
+      "transparentPixels": 41119,
+      "borderViolations": 0,
+      "sha256": "8c5f32f3d76cbace0a2e9a8924f01a64284c2bd403d270cd1efa35e547d9e2dc"
+    },
+    {
+      "id": "chef",
+      "path": "assets/images/character/chef.png",
+      "bytes": 109606,
+      "width": 584,
+      "height": 574,
+      "transparentPixels": 148140,
+      "borderViolations": 0,
+      "sha256": "0550b438f2218848762bd02e767486cde5d34344761f98eab754013fe8030ba2"
+    },
+    {
+      "id": "icon",
+      "path": "assets/images/ui/icon.png",
+      "bytes": 96635,
+      "width": 498,
+      "height": 505,
+      "transparentPixels": 37673,
+      "borderViolations": 0,
+      "sha256": "823f09b45d93392ce13a1d120444abbf8902341bb5b257971cb929f0e17c78d0"
+    },
+    {
+      "id": "logo",
+      "path": "assets/images/ui/logo.png",
+      "bytes": 215978,
+      "width": 1654,
+      "height": 407,
+      "transparentPixels": 152415,
+      "borderViolations": 0,
+      "sha256": "2ff5b8ce11be9aa800710e62170366d89f8a9027e15fee5bf6aad71c26eb1eba"
+    },
+    {
+      "id": "egg-cracking",
+      "path": "assets/images/effects/egg-cracking.png",
+      "bytes": 56456,
+      "width": 448,
+      "height": 467,
+      "transparentPixels": 89819,
+      "borderViolations": 0,
+      "sha256": "6c9f9d981384fff0d088ea02cd69bae7be4c7ae7ef4528520c4ce96fa3202b13"
+    },
+    {
+      "id": "egg-falling",
+      "path": "assets/images/effects/egg-falling.png",
+      "bytes": 48773,
+      "width": 442,
+      "height": 444,
+      "transparentPixels": 108255,
+      "borderViolations": 0,
+      "sha256": "cac232316e1b12e8fce2c7f7cbd9caea09db43494da6e28d086caf5fb7cb21a1"
+    },
+    {
+      "id": "egg-poached",
+      "path": "assets/images/ingredients/egg-poached.png",
+      "bytes": 75508,
+      "width": 472,
+      "height": 399,
+      "transparentPixels": 66985,
+      "borderViolations": 0,
+      "sha256": "44e238dc9f70eaf2b56ae0d9f4ff1109e5d4506fe6da366f2398977f294bc9e8"
+    },
+    {
+      "id": "water-surface",
+      "path": "assets/images/cookware/water-surface.png",
+      "bytes": 43604,
+      "width": 473,
+      "height": 234,
+      "transparentPixels": 35072,
+      "borderViolations": 0,
+      "sha256": "7eb6838ae9661efee708d12d2f6e6226931127fff21bb25a5a2065888a21a24a"
+    },
+    {
+      "id": "noodle-surface",
+      "path": "assets/images/cookware/noodle-surface.png",
+      "bytes": 68653,
+      "width": 516,
+      "height": 262,
+      "transparentPixels": 42250,
+      "borderViolations": 0,
+      "sha256": "32ab0278b0abb48c3143c167ab0dc6382824917d03c7149554ad19076245a194"
+    },
+    {
+      "id": "ready-badge",
+      "path": "assets/images/ui/ready-badge.png",
+      "bytes": 59306,
+      "width": 541,
+      "height": 337,
+      "transparentPixels": 67352,
+      "borderViolations": 0,
+      "sha256": "083f7fc3c665522dab5b37dcae1b674dde580a3044989c5bd91b8e790d07fba6"
+    },
+    {
+      "id": "warning-badge",
+      "path": "assets/images/ui/warning-badge.png",
+      "bytes": 47580,
+      "width": 452,
+      "height": 330,
+      "transparentPixels": 61366,
+      "borderViolations": 0,
+      "sha256": "c6c82a0a033bd32e5042fc6167d3b59f8cdc75581d161e1d36d202baedfbe5b5"
+    },
+    {
+      "id": "heart",
+      "path": "assets/images/ui/heart.png",
+      "bytes": 30939,
+      "width": 436,
+      "height": 285,
+      "transparentPixels": 52720,
+      "borderViolations": 0,
+      "sha256": "90c98c5a18507b3e1a645dd7e0e6a3f308c7b540f489711beeeaf71e293c722b"
+    },
+    {
+      "id": "selection-ring",
+      "path": "assets/images/effects/selection-ring.png",
+      "bytes": 46553,
+      "width": 540,
+      "height": 263,
+      "transparentPixels": 40448,
+      "borderViolations": 0,
+      "sha256": "6b88ccddcc5e646d694e14f766c35c08bbed59da880e9d6f5a3ae1bc02ed239b"
+    },
+    {
+      "id": "pour-stream",
+      "path": "assets/images/effects/pour-stream.png",
+      "bytes": 43275,
+      "width": 420,
+      "height": 341,
+      "transparentPixels": 72647,
+      "borderViolations": 0,
+      "sha256": "79ad20cac246df6d44423ef042ae6321eb01db3aa06cf19415f1c95eee519bc3"
+    },
+    {
+      "id": "seasoning",
+      "path": "assets/images/ingredients/seasoning.png",
+      "bytes": 71673,
+      "width": 580,
+      "height": 265,
+      "transparentPixels": 57811,
+      "borderViolations": 0,
+      "sha256": "eac8faa3d06804d3da576619f4e0eca6ce1cb61e27afeb82fb82f6730f87047d"
+    },
+    {
+      "id": "noodle-block",
+      "path": "assets/images/ingredients/noodle-block.png",
+      "bytes": 85114,
+      "width": 486,
+      "height": 251,
+      "transparentPixels": 29169,
+      "borderViolations": 0,
+      "sha256": "0ffa030ef80ebc99164e4f8a6e3a20681ff9458ea3860e434183f165a1c141f0"
+    },
+    {
+      "id": "scallion-bunch",
+      "path": "assets/images/ingredients/scallion-bunch.png",
+      "bytes": 43499,
+      "width": 527,
+      "height": 278,
+      "transparentPixels": 71449,
+      "borderViolations": 0,
+      "sha256": "01e94490f7f117c13a2b56a21c2df1e3c3e2ec351d02a83f95ceafce4c683a03"
+    },
+    {
+      "id": "egg-whole",
+      "path": "assets/images/ingredients/egg-whole.png",
+      "bytes": 65663,
+      "width": 562,
+      "height": 283,
+      "transparentPixels": 52994,
+      "borderViolations": 0,
+      "sha256": "7eac18acabe38394c96d4c3106cdd80248350a06ad571b3bd05d0542a061c6fd"
+    },
+    {
+      "id": "scallion-rings",
+      "path": "assets/images/ingredients/scallion-rings.png",
+      "bytes": 60642,
+      "width": 505,
+      "height": 285,
+      "transparentPixels": 59179,
+      "borderViolations": 0,
+      "sha256": "ffbb62f4e5c49bffcbff13b22e1c8309c8d7d5a371eb2fb7c167c0379a58c60f"
+    },
+    {
+      "id": "ramen-bowl",
+      "path": "assets/images/ui/ramen-bowl.png",
+      "bytes": 69847,
+      "width": 510,
+      "height": 364,
+      "transparentPixels": 61094,
+      "borderViolations": 0,
+      "sha256": "8e03a2d2d0c89b6ec3db23ba9d4d185ce7d9a873ca2d4b6c5a7d2982b3a16c2b"
+    },
+    {
+      "id": "pot-ready",
+      "path": "assets/images/cookware/pot-ready.png",
+      "bytes": 33629,
+      "width": 384,
+      "height": 274,
+      "transparentPixels": 58146,
+      "borderViolations": 0,
+      "sha256": "9cf2668da0e7d29ae8220b2774e7c411c00b0f0beccbca2ceddf1f56adb019db"
+    },
+    {
+      "id": "scallion-falling",
+      "path": "assets/images/effects/scallion-falling.png",
+      "bytes": 30615,
+      "width": 388,
+      "height": 350,
+      "transparentPixels": 98924,
+      "borderViolations": 0,
+      "sha256": "4b42302a63cefe53af0f252a74cda24c9557173d05bb8394fa111e74f676fec5"
+    },
+    {
+      "id": "seasoning-falling",
+      "path": "assets/images/effects/seasoning-falling.png",
+      "bytes": 42307,
+      "width": 412,
+      "height": 316,
+      "transparentPixels": 74953,
+      "borderViolations": 0,
+      "sha256": "858ce74067a023927276bf9520892bb069afd8bfc8d82772b0b385926cbcab79"
+    },
+    {
+      "id": "pot-seasoned",
+      "path": "assets/images/cookware/pot-seasoned.png",
+      "bytes": 43751,
+      "width": 384,
+      "height": 274,
+      "transparentPixels": 44082,
+      "borderViolations": 0,
+      "sha256": "0583c7545ce3d9cece07cdf1be9c087cb0ddf148c49f43550f6dd1a4c7d09a77"
+    },
+    {
+      "id": "noodle-strands",
+      "path": "assets/images/cookware/noodle-strands.png",
+      "bytes": 62868,
+      "width": 536,
+      "height": 234,
+      "transparentPixels": 59261,
+      "borderViolations": 0,
+      "sha256": "bb154db48a21eade51d1439ea0066dd59681bd87ea2fd6e22a7e09077ea23ac7"
+    },
+    {
+      "id": "oven-mitt",
+      "path": "assets/images/effects/oven-mitt.png",
+      "bytes": 13425,
+      "width": 194,
+      "height": 184,
+      "transparentPixels": 19708,
+      "borderViolations": 0,
+      "sha256": "0888f8751d31f9250f52f1f41c338b64ad13f462b1b8ce3c829c560e9de8ce0b"
+    },
+    {
+      "id": "egg-single",
+      "path": "assets/images/ingredients/egg-single.png",
+      "bytes": 4964,
+      "width": 94,
+      "height": 118,
+      "transparentPixels": 5874,
+      "borderViolations": 0,
+      "sha256": "592880452609bf1e84eb979f711a2946da9aced780319d7146f76c756166ee1c"
+    },
+    {
+      "id": "seasoning-single",
+      "path": "assets/images/ingredients/seasoning-single.png",
+      "bytes": 6166,
+      "width": 108,
+      "height": 124,
+      "transparentPixels": 7236,
+      "borderViolations": 0,
+      "sha256": "bd93781e89f7d8f03430fbfa823c8c9e9acc90dde7657eb1b63e69b7af0df6ef"
+    },
+    {
+      "id": "egg-shells",
+      "path": "assets/images/effects/egg-shells.png",
+      "bytes": 8032,
+      "width": 184,
+      "height": 109,
+      "transparentPixels": 11254,
+      "borderViolations": 0,
+      "sha256": "5fb603e5a8209ca9f50b2665d6e78c867984133cfe3fb48a8f2e966ff8a5aa36"
+    },
+    {
+      "id": "kitchen-wide",
+      "path": "assets/images/background/kitchen-wide.jpg",
+      "bytes": 331638,
+      "width": 2400,
+      "height": 1086,
+      "transparentPixels": 0,
+      "borderViolations": 0,
+      "sha256": "8c4045455ab0ab5859c9b420c545b30d9456a63cf661c055f8b81db1f1703ab5"
+    },
+    {
+      "id": "kitchen",
+      "path": "assets/images/background/kitchen.jpg",
+      "bytes": 257083,
+      "width": 1448,
+      "height": 1086,
+      "transparentPixels": 0,
+      "borderViolations": 0,
+      "sha256": "aae4371b9b52eef8d5c26c2dc49787fa70221461c772b9cbffb3957f53f0c69b"
+    },
+    {
+      "id": "menu-wide",
+      "path": "assets/images/background/menu-wide.jpg",
+      "bytes": 591636,
+      "width": 2400,
+      "height": 1086,
+      "transparentPixels": 0,
+      "borderViolations": 0,
+      "sha256": "b6dc1d6df4e99ca4add399dd40a390b9cc2025a9a1b462356ecc55f9ff36662a"
+    },
+    {
+      "id": "menu",
+      "path": "assets/images/background/menu.jpg",
+      "bytes": 427161,
+      "width": 1448,
+      "height": 1086,
+      "transparentPixels": 0,
+      "borderViolations": 0,
+      "sha256": "ceea992f8220266b36d652acbba5e2af826d018d17f6d64be817553c3ddfe271"
+    }
+  ],
+  "scope": "阶段二素材文件、路径、解码、尺寸和透明边距检查；不是微信或游戏运行验收"
+}

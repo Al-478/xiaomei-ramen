@@ -1,0 +1,750 @@
+{
+  "version": 1,
+  "logicalWidth": 1448,
+  "logicalHeight": 1086,
+  "targetAmount": 100000,
+  "standardBowlPrice": 10000,
+  "eggStyle": "敲开生蛋入汤，凝固成荷包蛋",
+  "assets": [
+    {
+      "id": "pot-empty",
+      "path": "assets/images/cookware/pot-empty.png",
+      "width": 384,
+      "height": 274,
+      "alpha": true,
+      "source": "art_sources/objects-atlas-v2.png",
+      "sourceRect": [
+        0,
+        0,
+        313,
+        313
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "pot-water",
+      "path": "assets/images/cookware/pot-water.png",
+      "width": 384,
+      "height": 274,
+      "alpha": true,
+      "source": "art_sources/objects-atlas-v2.png",
+      "sourceRect": [
+        313,
+        0,
+        314,
+        313
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "pot-noodles",
+      "path": "assets/images/cookware/pot-noodles.png",
+      "width": 384,
+      "height": 274,
+      "alpha": true,
+      "source": "art_sources/objects-atlas-v2.png",
+      "sourceRect": [
+        627,
+        0,
+        313,
+        313
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "pot-burnt",
+      "path": "assets/images/cookware/pot-burnt.png",
+      "width": 384,
+      "height": 274,
+      "alpha": true,
+      "source": "art_sources/objects-atlas-v2.png",
+      "sourceRect": [
+        0,
+        313,
+        313,
+        314
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "kettle",
+      "path": "assets/images/cookware/kettle.png",
+      "width": 306,
+      "height": 329,
+      "alpha": true,
+      "source": "art_sources/objects-atlas-v2.png",
+      "sourceRect": [
+        319,
+        320,
+        291,
+        308
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "burner",
+      "path": "assets/images/cookware/burner.png",
+      "width": 294,
+      "height": 224,
+      "alpha": true,
+      "source": "art_sources/objects-atlas-v2.png",
+      "sourceRect": [
+        955,
+        388,
+        290,
+        218
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "steam",
+      "path": "assets/images/effects/steam.png",
+      "width": 268,
+      "height": 324,
+      "alpha": true,
+      "source": "art_sources/objects-atlas-v2.png",
+      "sourceRect": [
+        0,
+        940,
+        313,
+        314
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "smoke",
+      "path": "assets/images/effects/smoke.png",
+      "width": 272,
+      "height": 307,
+      "alpha": true,
+      "source": "art_sources/objects-atlas-v2.png",
+      "sourceRect": [
+        313,
+        940,
+        314,
+        314
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "bubbles",
+      "path": "assets/images/effects/bubbles.png",
+      "width": 313,
+      "height": 285,
+      "alpha": true,
+      "source": "art_sources/objects-atlas-v2.png",
+      "sourceRect": [
+        627,
+        940,
+        313,
+        314
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "coin",
+      "path": "assets/images/ui/coin.png",
+      "width": 287,
+      "height": 275,
+      "alpha": true,
+      "source": "art_sources/objects-atlas-v2.png",
+      "sourceRect": [
+        940,
+        940,
+        314,
+        314
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "chef-win",
+      "path": "assets/images/character/chef-win.png",
+      "width": 444,
+      "height": 444,
+      "alpha": true,
+      "source": "art_sources/chef-win.png",
+      "sourceRect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "chef-lose",
+      "path": "assets/images/character/chef-lose.png",
+      "width": 444,
+      "height": 444,
+      "alpha": true,
+      "source": "art_sources/chef-lose.png",
+      "sourceRect": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "tray",
+      "path": "assets/images/cookware/tray.png",
+      "width": 512,
+      "height": 300,
+      "alpha": true,
+      "source": "art_sources/tray-empty-v4.png",
+      "sourceRect": [
+        0,
+        0,
+        1619,
+        972
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "start-button",
+      "path": "assets/images/ui/start-button.png",
+      "width": 533,
+      "height": 256,
+      "alpha": true,
+      "source": "art_sources/ui-atlas-v2.png",
+      "sourceRect": [
+        733,
+        62,
+        521,
+        269
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "speech-panel",
+      "path": "assets/images/ui/speech-panel.png",
+      "width": 642,
+      "height": 367,
+      "alpha": true,
+      "source": "art_sources/ui-atlas-v2.png",
+      "sourceRect": [
+        8,
+        336,
+        626,
+        351
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "dialog-panel",
+      "path": "assets/images/ui/dialog-panel.png",
+      "width": 613,
+      "height": 343,
+      "alpha": true,
+      "source": "art_sources/ui-atlas-v2.png",
+      "sourceRect": [
+        638,
+        346,
+        616,
+        350
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "chef",
+      "path": "assets/images/character/chef.png",
+      "width": 584,
+      "height": 574,
+      "alpha": true,
+      "source": "art_sources/ui-atlas-v2.png",
+      "sourceRect": [
+        36,
+        689,
+        583,
+        560
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "icon",
+      "path": "assets/images/ui/icon.png",
+      "width": 498,
+      "height": 505,
+      "alpha": true,
+      "source": "art_sources/ui-atlas-v2.png",
+      "sourceRect": [
+        684,
+        720,
+        507,
+        511
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "logo",
+      "path": "assets/images/ui/logo.png",
+      "width": 1654,
+      "height": 407,
+      "alpha": true,
+      "source": "art_sources/logo-xiaomei.png",
+      "sourceRect": [
+        0,
+        0,
+        2171,
+        724
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "egg-cracking",
+      "path": "assets/images/effects/egg-cracking.png",
+      "width": 448,
+      "height": 467,
+      "alpha": true,
+      "source": "art_sources/egg-atlas.png",
+      "sourceRect": [
+        548,
+        45,
+        459,
+        467
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "egg-falling",
+      "path": "assets/images/effects/egg-falling.png",
+      "width": 442,
+      "height": 444,
+      "alpha": true,
+      "source": "art_sources/egg-atlas.png",
+      "sourceRect": [
+        1054,
+        50,
+        482,
+        461
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "egg-poached",
+      "path": "assets/images/ingredients/egg-poached.png",
+      "width": 472,
+      "height": 399,
+      "alpha": true,
+      "source": "art_sources/egg-atlas.png",
+      "sourceRect": [
+        10,
+        526,
+        465,
+        431
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "water-surface",
+      "path": "assets/images/cookware/water-surface.png",
+      "width": 473,
+      "height": 234,
+      "alpha": true,
+      "source": "art_sources/overlays-atlas.png",
+      "sourceRect": [
+        30,
+        50,
+        476,
+        280
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "noodle-surface",
+      "path": "assets/images/cookware/noodle-surface.png",
+      "width": 516,
+      "height": 262,
+      "alpha": true,
+      "source": "art_sources/overlays-atlas.png",
+      "sourceRect": [
+        521,
+        49,
+        502,
+        281
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "ready-badge",
+      "path": "assets/images/ui/ready-badge.png",
+      "width": 541,
+      "height": 337,
+      "alpha": true,
+      "source": "art_sources/overlays-atlas.png",
+      "sourceRect": [
+        518,
+        343,
+        526,
+        344
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "warning-badge",
+      "path": "assets/images/ui/warning-badge.png",
+      "width": 452,
+      "height": 330,
+      "alpha": true,
+      "source": "art_sources/overlays-atlas.png",
+      "sourceRect": [
+        1071,
+        354,
+        457,
+        325
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "heart",
+      "path": "assets/images/ui/heart.png",
+      "width": 436,
+      "height": 285,
+      "alpha": true,
+      "source": "art_sources/overlays-atlas.png",
+      "sourceRect": [
+        38,
+        706,
+        460,
+        301
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "selection-ring",
+      "path": "assets/images/effects/selection-ring.png",
+      "width": 540,
+      "height": 263,
+      "alpha": true,
+      "source": "art_sources/overlays-atlas.png",
+      "sourceRect": [
+        518,
+        710,
+        516,
+        297
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "pour-stream",
+      "path": "assets/images/effects/pour-stream.png",
+      "width": 420,
+      "height": 341,
+      "alpha": true,
+      "source": "art_sources/overlays-atlas.png",
+      "sourceRect": [
+        1090,
+        682,
+        441,
+        342
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "seasoning",
+      "path": "assets/images/ingredients/seasoning.png",
+      "width": 580,
+      "height": 265,
+      "alpha": true,
+      "source": "art_sources/ingredients-atlas-v3.png",
+      "sourceRect": [
+        0,
+        55,
+        559,
+        259
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "noodle-block",
+      "path": "assets/images/ingredients/noodle-block.png",
+      "width": 486,
+      "height": 251,
+      "alpha": true,
+      "source": "art_sources/ingredients-atlas-v3.png",
+      "sourceRect": [
+        560,
+        65,
+        465,
+        246
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "scallion-bunch",
+      "path": "assets/images/ingredients/scallion-bunch.png",
+      "width": 527,
+      "height": 278,
+      "alpha": true,
+      "source": "art_sources/ingredients-atlas-v3.png",
+      "sourceRect": [
+        1027,
+        52,
+        509,
+        266
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "egg-whole",
+      "path": "assets/images/ingredients/egg-whole.png",
+      "width": 562,
+      "height": 283,
+      "alpha": true,
+      "source": "art_sources/ingredients-atlas-v3.png",
+      "sourceRect": [
+        20,
+        370,
+        553,
+        271
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "scallion-rings",
+      "path": "assets/images/ingredients/scallion-rings.png",
+      "width": 505,
+      "height": 285,
+      "alpha": true,
+      "source": "art_sources/ingredients-atlas-v3.png",
+      "sourceRect": [
+        578,
+        374,
+        482,
+        273
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "ramen-bowl",
+      "path": "assets/images/ui/ramen-bowl.png",
+      "width": 510,
+      "height": 364,
+      "alpha": true,
+      "source": "art_sources/ingredients-atlas-v3.png",
+      "sourceRect": [
+        1030,
+        334,
+        495,
+        340
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "pot-ready",
+      "path": "assets/images/cookware/pot-ready.png",
+      "width": 384,
+      "height": 274,
+      "alpha": true,
+      "source": "art_sources/ingredients-atlas-v3.png",
+      "sourceRect": [
+        0,
+        642,
+        683,
+        371
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "scallion-falling",
+      "path": "assets/images/effects/scallion-falling.png",
+      "width": 388,
+      "height": 350,
+      "alpha": true,
+      "source": "art_sources/ingredients-atlas-v3.png",
+      "sourceRect": [
+        684,
+        673,
+        395,
+        332
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "seasoning-falling",
+      "path": "assets/images/effects/seasoning-falling.png",
+      "width": 412,
+      "height": 316,
+      "alpha": true,
+      "source": "art_sources/ingredients-atlas-v3.png",
+      "sourceRect": [
+        1097,
+        687,
+        439,
+        323
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "pot-seasoned",
+      "path": "assets/images/cookware/pot-seasoned.png",
+      "width": 384,
+      "height": 274,
+      "alpha": true,
+      "source": "art_sources/pot-seasoned.png",
+      "sourceRect": [
+        0,
+        0,
+        1485,
+        1059
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "noodle-strands",
+      "path": "assets/images/cookware/noodle-strands.png",
+      "width": 536,
+      "height": 234,
+      "alpha": true,
+      "source": "art_sources/noodle-strands-v2.png",
+      "sourceRect": [
+        0,
+        0,
+        1942,
+        809
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "oven-mitt",
+      "path": "assets/images/effects/oven-mitt.png",
+      "width": 194,
+      "height": 184,
+      "alpha": true,
+      "source": "art_sources/oven-mitt-v1.png",
+      "sourceRect": [
+        0,
+        0,
+        1312,
+        1199
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "egg-single",
+      "path": "assets/images/ingredients/egg-single.png",
+      "width": 94,
+      "height": 118,
+      "alpha": true,
+      "source": "art_sources/egg-single-v1.png",
+      "sourceRect": [
+        0,
+        0,
+        1321,
+        1191
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "seasoning-single",
+      "path": "assets/images/ingredients/seasoning-single.png",
+      "width": 108,
+      "height": 124,
+      "alpha": true,
+      "source": "art_sources/seasoning-single-v1.png",
+      "sourceRect": [
+        0,
+        0,
+        1312,
+        1199
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "egg-shells",
+      "path": "assets/images/effects/egg-shells.png",
+      "width": 184,
+      "height": 109,
+      "alpha": true,
+      "source": "art_sources/egg-shells-v1.png",
+      "sourceRect": [
+        0,
+        0,
+        1572,
+        1001
+      ],
+      "padding": 12,
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "kitchen-wide",
+      "path": "assets/images/background/kitchen-wide.jpg",
+      "width": 2400,
+      "height": 1086,
+      "alpha": false,
+      "source": "art_sources/kitchen-wide-v4.png",
+      "sourceType": "内置图片生成工具，宽屏延展"
+    },
+    {
+      "id": "kitchen",
+      "path": "assets/images/background/kitchen.jpg",
+      "width": 1448,
+      "height": 1086,
+      "alpha": false,
+      "source": "art_sources/kitchen-wide-v4.png",
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    },
+    {
+      "id": "menu-wide",
+      "path": "assets/images/background/menu-wide.jpg",
+      "width": 2400,
+      "height": 1086,
+      "alpha": false,
+      "source": "art_sources/menu-wide-v4.png",
+      "sourceType": "内置图片生成工具，宽屏延展"
+    },
+    {
+      "id": "menu",
+      "path": "assets/images/background/menu.jpg",
+      "width": 1448,
+      "height": 1086,
+      "alpha": false,
+      "source": "art_sources/menu-wide-v4.png",
+      "sourceType": "内置图片生成工具，用户授权图片派生"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "tool": "\u5185\u7f6e image_gen.imagegen",
+  "date": "2026-10-07",
+  "version": "1.3.0",
+  "assets": [
+    {
+      "source": "art_sources/egg-single-v1.png",
+      "runtime": "assets/images/ingredients/egg-single.png",
+      "prompt": "Create a single isolated whole uncracked chicken egg game sprite on a truly transparent background. Exactly ONE pale ice-blue egg, matching a cute pink-kitchen and gold-pot 2000s cartoon cooking game. Natural uninterrupted oval egg silhouette, very lightly narrower at the top, almost ivory blue interior, simple cyan outline and small white reflective glint, restrained two-tone cel shading. Three-quarter side view, one egg only with no neighboring eggs or fragments, no shell crack, no yolk, no bowl, no letters, no cast shadow outside the sprite, no rectangle. Whole oval fully visible with generous transparent margin. Clean hand-drawn cartoon style, not photographic and not 3D render."
+    },
+    {
+      "source": "art_sources/seasoning-single-v1.png",
+      "runtime": "assets/images/ingredients/seasoning-single.png",
+      "prompt": "Create a single isolated unopened small chili seasoning sachet game sprite on a truly transparent background. Exactly ONE flat red rectangular foil packet with a thin golden yellow sealed border, subtle crimped edge and a simple white chili-pepper drawing centered on the front. No text, no brand, no letters. Front view with a slight friendly diagonal tilt of about 8 degrees, simple 2000s Flash cartoon cooking game linework and 2-level cel shading, consistent with a bright pink kitchen and yellow-gold pots. Thin physical foil packet, not a box, not a pile of packets, no floating chili powder, no corner of a second packet. Complete outline fully visible with generous transparent padding."
+    },
+    {
+      "source": "art_sources/egg-shells-v1.png",
+      "runtime": "assets/images/effects/egg-shells.png",
+      "prompt": "Edit this original cartoon game sprite into a clean separate cracked-eggshell sprite. Remove ALL egg yolk, egg white, liquid bridges, drips, bubbles and droplets. Keep exactly TWO complete pale ice-blue cracked shell halves side by side, opened outward, showing a little light pink/ivory interior. Restore the complete natural jagged opening rims of both shells where liquid was removed. No cut-off straight crop boundaries, no third shell, no extra fragment. Match the original blue shading and clean cartoon outline. The two shells must be distinct and separated by transparent space. Isolated on a truly transparent background with generous transparent margins. No liquid, no food, no pot, no text, no hands. This will be held ABOVE a soup pot while a separately rendered yolk/white falls down."
+    }
+  ]
+}

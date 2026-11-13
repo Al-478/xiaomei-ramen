@@ -1,0 +1,55 @@
+核心源码：src/
+正式源资源：assets/
+构建/审计工具：scripts/
+测试：tests/
+独立运行目录：dist-wechat/
+  assets/audio/bgm_game.mp3
+  assets/audio/boiling.mp3
+  assets/audio/burnt.mp3
+  assets/audio/click.mp3
+  assets/audio/coin.mp3
+  assets/audio/cooking_done.mp3
+  assets/audio/egg_crack.mp3
+  assets/audio/ingredient_drop.mp3
+  assets/audio/lose.mp3
+  assets/audio/pour_water.mp3
+  assets/audio/warning.mp3
+  assets/audio/win.mp3
+  assets/images/background/kitchen-wide.jpg
+  assets/images/background/menu-wide.jpg
+  assets/images/character/chef-lose.png
+  assets/images/character/chef-win.png
+  assets/images/character/chef.png
+  assets/images/cookware/burner.png
+  assets/images/cookware/kettle.png
+  assets/images/cookware/noodle-strands.png
+  assets/images/cookware/pot-burnt.png
+  assets/images/cookware/pot-empty.png
+  assets/images/cookware/tray.png
+  assets/images/effects/egg-falling.png
+  assets/images/effects/egg-shells.png
+  assets/images/effects/oven-mitt.png
+  assets/images/effects/smoke.png
+  assets/images/effects/steam.png
+  assets/images/ingredients/egg-poached.png
+  assets/images/ingredients/egg-single.png
+  assets/images/ingredients/noodle-block.png
+  assets/images/ingredients/scallion-bunch.png
+  assets/images/ingredients/seasoning-single.png
+  assets/images/ui/coin.png
+  assets/images/ui/dialog-panel.png
+  assets/images/ui/logo.png
+  assets/images/ui/ramen-bowl.png
+  assets/images/ui/ready-badge.png
+  assets/images/ui/speech-panel.png
+  assets/images/ui/start-button.png
+  assets/images/ui/warning-badge.png
+  dist/main.js
+  game.js
+  game.json
+  project.config.json
+README.md
+TEST_PLAN.md
+WECHAT_ACCEPTANCE.md
+RELEASE_CHECKLIST.md
+FINAL_ACCEPTANCE.md

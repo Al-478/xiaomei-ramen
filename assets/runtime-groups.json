@@ -1,0 +1,24 @@
+{
+  "menu": [
+    "menu-wide",
+    "logo",
+    "speech-panel",
+    "start-button",
+    "dialog-panel"
+  ],
+  "cooking": [
+    "pot-burnt",
+    "egg-falling",
+    "egg-poached",
+    "steam",
+    "smoke",
+    "ready-badge",
+    "warning-badge",
+    "chef",
+    "chef-win",
+    "chef-lose",
+    "oven-mitt",
+    "noodle-strands",
+    "egg-shells"
+  ]
+}
