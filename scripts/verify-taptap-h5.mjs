@@ -103,6 +103,19 @@ try {
   await page.waitForFunction(() => window.__h5Check.text(875, 330).includes('厨房课堂'));
   await page.mouse.click(1067, 816);
   await page.waitForFunction(() => window.__h5Check.text(1390, 268) === '0');
+  await page.mouse.click(320, 980);
+  await page.waitForFunction(() => window.__h5Check.text(724, 335) === '游戏已暂停');
+  const pausedTime = await page.evaluate(() => window.__h5Check.text(938, 185));
+  await page.waitForTimeout(1200);
+  assert.equal(await page.evaluate(() => window.__h5Check.text(938, 185)), pausedTime);
+  await page.mouse.click(725, 439);
+  await page.waitForFunction(() => window.__h5Check.text(725, 439) === '音乐：关闭');
+  await page.mouse.click(725, 439);
+  await page.mouse.click(725, 539);
+  await page.waitForFunction(() => window.__h5Check.text(725, 539) === '音效：关闭');
+  await page.mouse.click(725, 539);
+  await page.mouse.click(725, 731);
+  checks.push('暂停冻结计时、音乐和音效独立切换、继续游戏通过');
   assert.equal(await page.evaluate(() => typeof window.wx), 'undefined');
   const pots = [[240, 480], [580, 480], [220, 670], [580, 670]];
   const drag = async (from, to) => {
@@ -168,6 +181,27 @@ try {
   await touchPage.waitForFunction(() => window.__h5Check.text(875, 330).includes('厨房课堂'));
   await touchPage.touchscreen.tap(left + 1067 * scale, 816 * scale);
   await touchPage.waitForFunction(() => window.__h5Check.text(1390, 268) === '0');
+  const session = await mobile.newCDPSession(touchPage);
+  const touchDrag = async (from, to) => {
+    const at = (x, y) => ({ x: left + x * scale, y: y * scale, id: 1 });
+    await session.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: [at(...from)] });
+    for (let step = 1; step <= 6; step++) {
+      const fraction = step / 6;
+      await session.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: [at(
+        from[0] + (to[0] - from[0]) * fraction, from[1] + (to[1] - from[1]) * fraction)] });
+    }
+    await session.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
+  };
+  await touchDrag([180, 275], pots[0]);
+  await touchDrag([180, 165], pots[0]);
+  await touchDrag([880, 750], pots[0]);
+  await touchPage.waitForTimeout(2480);
+  await touchDrag([410, 165], pots[0]);
+  await touchDrag([410, 275], pots[0]);
+  await touchPage.waitForTimeout(3250);
+  await touchDrag(pots[0], [1200, 680]);
+  await touchPage.waitForFunction(() => window.__h5Check.text(1390, 268) === '10000');
+  checks.push('移动浏览器使用真实触摸事件拖动投料并完成一碗10000金币出餐');
   await touchPage.setViewportSize({ width: 540, height: 960 });
   await touchPage.waitForFunction(() => document.querySelector('canvas').height > document.querySelector('canvas').width);
   await touchPage.setViewportSize({ width: 960, height: 540 });

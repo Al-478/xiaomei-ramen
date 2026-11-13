@@ -2,6 +2,9 @@
 
 ## 网页版与 Vercel 部署
 
+- 正式游玩地址：https://xiaomei-ramen.vercel.app/
+- 源码仓库：https://github.com/Al-478/xiaomei-ramen
+
 网页版复用现有 H5 入口和游戏逻辑，无需账号登录。使用 Node.js 24 和 npm：
 
 ```powershell
